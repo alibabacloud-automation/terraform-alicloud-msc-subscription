@@ -1,6 +1,6 @@
 Terraform module which creating contract and subscription on Alibaba Cloud
 
-terraform-alicloud-msc-contract-subscription
+terraform-alicloud-msc-subscription
 =====================================================================
 
 [English](README.md) | 简体中文
@@ -16,7 +16,7 @@ terraform-alicloud-msc-contract-subscription
 
 ```hcl
 module "example" {
-  source                  = "terraform-alicloud-modules/msc-contract-subcri/alicloud"
+  source                  = "terraform-alicloud-modules/msc-subscription/alicloud"
   contract_name           = "test-subscription"
   contract_position       = "CEO"
   subscription_tts_status = 0
